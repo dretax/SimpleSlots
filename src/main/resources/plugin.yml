@@ -1,0 +1,15 @@
+name: SimpleSlots
+version: 1.0
+description: Slot Changer.
+author: DreTaX
+main: me.dretax.SimpleSlots.SimpleSlots
+commands:
+  simples:
+    description: Main Command Lister.
+permissions:
+    simpleslots.slot:
+        description: For the /simples editslot command
+        default: op
+    simpleslots.reload:
+        description: For the /simples reload command
+        default: op
